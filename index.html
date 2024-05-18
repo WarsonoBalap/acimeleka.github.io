@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>web abdul</title>
+  <style>
+    html,
+    body,
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: Monospace;
+    }
+
+    .box-terluar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 500px;
+      margin: 0 auto;
+      height: 100vh;
+      background-image: url("https://media.discordapp.net/attachments/1056552451379048518/1080538069347864596/budi.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .box-aku {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #ffff00;
+    }
+
+    .box-link {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      padding: 50px;
+      gap: 8px;
+    }
+
+    .box-link button {
+      background-color: aqua;
+      border: none;
+      font-size: 9.2px;
+      padding: 8px;
+      cursor: pointer;
+      transition: 200ms ease-in-out;
+    }
+
+    .box-link button:hover {
+      background-color: #333333;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box-terluar">
+    <div class="box-aku">
+      <center>
+        <img src="https://media.discordapp.net/attachments/1056552451379048518/1080538069540818954/STK-20230103-WA0007.webp" height="150" width="150" />
+        <h1>Abdul Jabbar Athoyyibi</h1>
+        <p>@immanuel_dwayne</p>
+      </center>
+    </div>
+    <div class="box-link">
+      <button onclick="hayu('https://m.facebook.com/100019965805767/')">Facebook</button>
+      <button onclick="hayu('https://www.tiktok.com/@wuweuwueeue')">Tiktok</button>
+      <button onclick="hayu('https://instagram.com/immanuel_dwayne')">Instagram</button>
+      <button onclick="hayu('https://github.com/WarsonoBalap')">GitHub</button>
+    </div>
+  </div>
+  <script>
+    function hayu(kamana) {
+      window.open(kamana)
+    }
+  </script>
+</body>
+
+</html
